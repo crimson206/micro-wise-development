@@ -122,9 +122,9 @@ options = Options(
 
 # Define the general information of your package
 kwargs = Kwargs(
-    name_space="crimson-templator",
-    module_name="requirements",
-    description="requirements file templates.",
+    name_space="crimson",
+    module_name="microwise-development",
+    description="Develop your modules as small as possible. Maintain the dependencies and other issues in the control center.",
 )
 
 kwargs_skeleton = kwargs.model_copy ()
