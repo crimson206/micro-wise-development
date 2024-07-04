@@ -2,6 +2,16 @@
 
 Micro-wise Development is an approach where you develop your packages using 4-10 scripts as components. Currently, this is a non-code repository concept.
 
+
+## Visualization
+See how many modules I am published or developing for one month.\
+(Dev dependencies are not applied. Version-up of dependency-manager is required)
+
+![alt text](static/dependency_map.png)
+![alt text](static/pypi.png)
+
+------------------------------ Omitted -------------------------------
+
 ## Advantages
 
 - **Extreme Dependency Freedom**: 
