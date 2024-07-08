@@ -4,8 +4,7 @@ Micro-wise Development is an approach where you develop your packages using 4-10
 
 
 ## Visualization
-See how many modules I am published or developing for one month. They are all developed in its own repository.\
-(Dev dependencies are not applied. Version-up of dependency-manager is required)
+See how many modules I have published or am developing. They are all developed in their own repositories.\
 
 ![alt text](static/dependency_map.png)
 ![alt text](static/pypi.png)
@@ -18,7 +17,7 @@ See how many modules I am published or developing for one month. They are all de
     Develop your packages as general-purpose tools, avoiding overly specific features for your other packages. This approach ensures that all your packages can remain free from dependencies.
 
 - **Easy to Initiate, Easy to Abandon**: 
-    Unlike modules in a large package, individual modules in micro packages are not critical. Feel free to experiment with new ideas, and delete them if they don't work out, without significant consequences.
+    Unlike modules in a large package, individual modules in micro packages are not as critical. Feel free to experiment with new ideas, and delete them if they don't work out, without significant consequences.
 
 - **Dedicated Version Control**: 
     In a large package with multiple modules, you need to create a pull request for any update, making it difficult to track changes across versions. With Micro-wise Development, you only need to update the repository of target modules, simplifying version control.
@@ -65,7 +64,7 @@ A repository template is used to maintain consistent development environments ac
 
 #### Templator
 
-The 'template' repository was created using the following modules. While there are plans to transition to 'jinja2', these tools remain useful for their simplicity. Even if some of your modules have low qualities, they are isolated, and don't hurt your other packages. Keep them without any burden.
+The 'template' repository was created using the following modules. While there are plans to transition to 'jinja2', these tools remain useful for their simplicity. Even if some of your modules are of lower quality, they are isolated and don't affect your other packages. Keep them without any burden.
 
 - [Templator](https://github.com/crimson206/templator)
 - [Formatter](https://github.com/crimson206/formatter)
@@ -83,7 +82,7 @@ The 'template' repository was created using the following modules. While there a
 
 It is just an example.
 
-I need to develop the 'test-loader' module, so that I can automate
+I need to develop the 'test-loader' module so that I can automate
 
 - all the modules' publishing with tests as well
 - add extract_texts function to all modules
@@ -92,7 +91,7 @@ My 'auto-pydantic' module is obviously not a module for the unittest, but it wil
 I wanted to implement it when I was updating 'auto-pydantic' module.
 
 - develop test-loader in 'beta' directory first if you want. Users are not recommended to use the functions from 'beta'.
-- you move the 'test-loader' module to a new repository 'test-loader', and replace the one in beta by the newly published 'test-loader'.
+- you move the 'test-loader' module to a new repository 'test-loader', and replace the one in beta with the newly published 'test-loader'.
 
 
 ![beta](static/beta.png)
@@ -109,7 +108,7 @@ I uploaded all the useful files from [AutoPydantic](https://github.com/crimson20
 - pyproject.toml
 - auto-pydantic-dev/
 
-The contents of the files are consistent, so that AI is not confused, and can help you with large parts of your whole module.
+The scope of the contents is limited so that AI is not confused and can help you with large parts of your entire module.
 
 ![sonnet_projects](static/sonnet_projects.png)
 
