@@ -2,6 +2,8 @@
 
 Micro-wise Development is an approach where you develop your packages using 4-10 scripts in `dedicated repositories`. Currently, this is a non-code repository concept.
 
+To check the framework establish progress, check the [orchestration](https://github.com/crimson206/microwise-development/blob/main/orchestration.md)
+
 
 ## Visualization
 See how many modules I have published or am developing. They are all developed in their own repositories.\
