@@ -2,7 +2,7 @@
 
 A comprehensive documentation summarizing the establishment of the framework.
 
-While I am developing in the `Micro-wise Development` style, it doesn't mean that I am developing using the `Micro-wise Development framework`. Though the style offers many advantages, it also has shortcomings. To overcome these, we need to develop the framework, and this document is to track the process.
+While I am developing in the `Micro Driven Development` style, it doesn't mean that I am developing using the `Micro Driven Development framework`. Though the style offers many advantages, it also has shortcomings. To overcome these, we need to develop the framework, and this document is to track the process.
 
 ## Modules
 
@@ -66,7 +66,7 @@ Modules with an underscore are planned ideas and abstractions.
 
 ### _Tagger
 
-Some modules might be developed for a specific purpose. This micro-wise development is a good example. It would be better to tag specific modules with their target projects. For this purpose, we will need a tagging manager.
+Some modules might be developed for a specific purpose. This micro-driven development is a good example. It would be better to tag specific modules with their target projects. For this purpose, we will need a tagging manager.
 
 ## To-Do
 
