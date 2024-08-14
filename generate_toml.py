@@ -123,7 +123,7 @@ options = Options(
 # Define the general information of your package
 kwargs = Kwargs(
     name_space="crimson",
-    module_name="microwise-development",
+    module_name="micro-driven-development",
     description="Develop your modules as small as possible. Maintain the dependencies and other issues in the control center.",
 )
 
