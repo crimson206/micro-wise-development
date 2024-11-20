@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "jsx": "react",
+      "declaration": true,
+      "outDir": "dist",
+      "esModuleInterop": true,
+      "strict": true,
+      "lib": ["DOM", "ESNext"]
+    },
+    "include": ["src"],
+    "exclude": [
+      "src/stories",
+      "src/main.jsx",
+      "src/App.jsx",
+    ]
+  }
