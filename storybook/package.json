@@ -4,7 +4,7 @@
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/crimson206/{repository}.git",
+  "repository": "https://github.com/crimson206/micro-wise-development",
   "author": "crimson206 <sisung.kim1@gmail.com>",
   "license": "MIT",
   "publishConfig": {
