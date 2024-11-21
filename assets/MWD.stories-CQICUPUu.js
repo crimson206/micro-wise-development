@@ -372,7 +372,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */var rR;function Mxe(){if(rR)return Ga;rR=1;var e=je,t=Symbol.for("react.element"),r=Symbol.for("react.fragment"),a=Object.prototype.hasOwnProperty,n=e.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,o={key:!0,ref:!0,__self:!0,__source:!0};function i(s,l,c){var u,d={},p=null,f=null;c!==void 0&&(p=""+c),l.key!==void 0&&(p=""+l.key),l.ref!==void 0&&(f=l.ref);for(u in l)a.call(l,u)&&!o.hasOwnProperty(u)&&(d[u]=l[u]);if(s&&s.defaultProps)for(u in l=s.defaultProps,l)d[u]===void 0&&(d[u]=l[u]);return{$$typeof:t,type:s,key:p,ref:f,props:d,_owner:n.current}}return Ga.Fragment=r,Ga.jsx=i,Ga.jsxs=i,Ga}jO.exports=Mxe();var qn=jO.exports;const Pxe=["cerulean","cosmo","cyborg","darkly","flatly","journal","litera","lumen","lux","materia","minty","pulse","sandstone","simplex","sketchy","slate","solar","spacelab","superhero","united","yeti"];class Fxe{constructor(t){tR(this,"initialTheme"),tR(this,"useThemeComponent",()=>{const[r,a]=Qe.useState(this.initialTheme);Qe.useEffect(()=>{const o=document.createElement("link");return o.href=`https://cdn.jsdelivr.net/npm/bootswatch@5.2.3/dist/${r}/bootstrap.min.css`,o.rel="stylesheet",o.id="theme-stylesheet",document.head.appendChild(o),()=>{const i=document.getElementById("theme-stylesheet");i&&document.head.removeChild(i)}},[r]);const n=Qe.useCallback(o=>{a(o.target.value)},[]);return{theme:r,setTheme:a,ThemeSelector:()=>qn.jsxs("div",{className:"mb-3",children:[qn.jsx("label",{htmlFor:"themeSelect",className:"form-label",children:"Select Theme:"}),qn.jsx("select",{id:"themeSelect",className:"form-select",value:r,onChange:n,children:Pxe.map(o=>qn.jsx("option",{value:o,children:o},o))})]})}}),this.initialTheme=t}}const qo=({markdownString:e})=>{const t=new Oxe("tomorrow"),{CodeStyleSelector:r,codeExecute:a}=t.useComponent(),n=new Fxe("cerulean"),{ThemeSelector:o}=n.useThemeComponent(),i={code:a};return Kt.jsx("div",{children:Kt.jsx(dAe,{markdownString:e,components:i,showExternalToggle:!0,externalToggleLabel:"Show Style Controls",externalReactComponents:[Kt.jsx(o,{},"theme"),Kt.jsx(r,{},"code")]})})};qo.__docgenInfo={description:"",methods:[],displayName:"MDRender",props:{markdownString:{required:!0,tsType:{name:"string"},description:""}}};const zxe=`## Table Of Contents
+ */var rR;function Mxe(){if(rR)return Ga;rR=1;var e=je,t=Symbol.for("react.element"),r=Symbol.for("react.fragment"),a=Object.prototype.hasOwnProperty,n=e.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,o={key:!0,ref:!0,__self:!0,__source:!0};function i(s,l,c){var u,d={},p=null,f=null;c!==void 0&&(p=""+c),l.key!==void 0&&(p=""+l.key),l.ref!==void 0&&(f=l.ref);for(u in l)a.call(l,u)&&!o.hasOwnProperty(u)&&(d[u]=l[u]);if(s&&s.defaultProps)for(u in l=s.defaultProps,l)d[u]===void 0&&(d[u]=l[u]);return{$$typeof:t,type:s,key:p,ref:f,props:d,_owner:n.current}}return Ga.Fragment=r,Ga.jsx=i,Ga.jsxs=i,Ga}jO.exports=Mxe();var qn=jO.exports;const Pxe=["cerulean","cosmo","cyborg","darkly","flatly","journal","litera","lumen","lux","materia","minty","pulse","sandstone","simplex","sketchy","slate","solar","spacelab","superhero","united","yeti"];class Fxe{constructor(t){tR(this,"initialTheme"),tR(this,"useThemeComponent",()=>{const[r,a]=Qe.useState(this.initialTheme);Qe.useEffect(()=>{const o=document.createElement("link");return o.href=`https://cdn.jsdelivr.net/npm/bootswatch@5.2.3/dist/${r}/bootstrap.min.css`,o.rel="stylesheet",o.id="theme-stylesheet",document.head.appendChild(o),()=>{const i=document.getElementById("theme-stylesheet");i&&document.head.removeChild(i)}},[r]);const n=Qe.useCallback(o=>{a(o.target.value)},[]);return{theme:r,setTheme:a,ThemeSelector:()=>qn.jsxs("div",{className:"mb-3",children:[qn.jsx("label",{htmlFor:"themeSelect",className:"form-label",children:"Select Theme:"}),qn.jsx("select",{id:"themeSelect",className:"form-select",value:r,onChange:n,children:Pxe.map(o=>qn.jsx("option",{value:o,children:o},o))})]})}}),this.initialTheme=t}}const qo=({markdownString:e})=>{const t=new Oxe("tomorrow"),{CodeStyleSelector:r,codeExecute:a}=t.useComponent(),n=new Fxe("cerulean"),{ThemeSelector:o}=n.useThemeComponent(),i={code:a};return Kt.jsx("div",{children:Kt.jsx(dAe,{markdownString:e,components:i,showExternalToggle:!0,externalToggleLabel:"Show Style Controls",externalReactComponents:[Kt.jsx(o,{},"theme"),Kt.jsx(r,{},"code")]})})};qo.__docgenInfo={description:"",methods:[],displayName:"MDRender",props:{markdownString:{required:!0,tsType:{name:"string"},description:""}}};const zxe=`# What is Micro Wise Development?
+
+Micro Wise Development (MWD) is a revolutionary software development methodology that breaks down complex systems into micro-level modules, making development more manageable, maintainable, and AI-friendly.
+
+## Table Of Contents
 
 ## Motivation or History
 
@@ -382,7 +386,7 @@ In its early stages, the goal was to create and distribute easily installable an
 
 This later evolved into Micro Wise Development, a Development Methodology where all module development is broken down into micro-level small units, each developed in exclusive repositories.
 
-## What is Micro Wise Development?
+## Micro Wise Development
 
 Let’s say we are developing a high-level module called A. Depending on the complexity of the service that module A is expected to provide, the number of scripts required to implement it often exceeds hundreds. Two of my favorite open-source projects can serve as examples:
 
@@ -395,14 +399,25 @@ MWD fundamentally rejects the concept of massive repositories like the ones ofte
 
 In theory, even a complex module like A can be implemented using just a few simple scripts. This makes it easier to understand what A does and how it is implemented.`,Bxe=`## Vision
 
+Software development stands at a crossroads, where traditional methodologies meet the emerging capabilities of AI. Our vision is to bridge this gap through a revolutionary approach to module development and system integration.
+
+### Table Of Contents
+
+### Current Limitations in AI Development
+
 Today's AI cannot independently develop massive and sophisticated projects like [OpenAI](https://github.com/openai/openai-python) or [Storybook](https://github.com/storybookjs/storybook). This limitation stems from constraints in how much context AI can process and the inherent dependency of Retrieval-Augmented Generation (RAG) on probabilistic data retrieval rather than logical reasoning.
 
 These limitations might eventually be addressed through advancements in computational hardware like GPUs or the evolution of RAG technologies by leading researchers. However, perhaps the real bottleneck lies not in the limitations of current AI technology, but in the traditional ways we approach software development itself.
 
+### The Micro-Wise Solution
+
 Micro-Wise Development aims to redefine this approach by making all modules fully comprehensible to AI. Each module is systematically abstracted, enabling clear relationships between components. With this methodology, AI could experiment with, develop, and integrate micro-modules, ultimately automating the creation of highly complex systems through iterative refinement of these smaller units.
 
+### A New Paradigm for Human Developers
 
-This vision is not limited to AI programming. It is also a direction that we, as human developers, must embrace. For too long, we have knowingly ignored inefficiencies in our development practices. However, as AI plays a larger role in programming, these inefficiencies are becoming increasingly apparent. Innovators who recognize and overcome these challenges—applying methodologies like Micro-Wise Development—will shape the future and lead the market.
+This vision is not limited to AI programming. It is also a direction that we, as human developers, must embrace. For too long, we have knowingly ignored inefficiencies in our development practices. However, as AI plays a larger role in programming, these inefficiencies are becoming increasingly apparent.
+
+Innovators who recognize and overcome these challenges—applying methodologies like Micro-Wise Development—will shape the future and lead the market.
 `,Uxe=`This is a part of the Readme that was drafted during the initial stages of Micro-Wise Development.
 The advantages and characteristics of MWD may be documented more elaborately in the future, but for now, this material will be used as a temporary resource.
 
