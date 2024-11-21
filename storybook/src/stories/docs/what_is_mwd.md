@@ -1,3 +1,7 @@
+# What is Micro Wise Development?
+
+Micro Wise Development (MWD) is a revolutionary software development methodology that breaks down complex systems into micro-level modules, making development more manageable, maintainable, and AI-friendly.
+
 ## Table Of Contents
 
 ## Motivation or History
@@ -8,7 +12,7 @@ In its early stages, the goal was to create and distribute easily installable an
 
 This later evolved into Micro Wise Development, a Development Methodology where all module development is broken down into micro-level small units, each developed in exclusive repositories.
 
-## What is Micro Wise Development?
+## Micro Wise Development
 
 Let’s say we are developing a high-level module called A. Depending on the complexity of the service that module A is expected to provide, the number of scripts required to implement it often exceeds hundreds. Two of my favorite open-source projects can serve as examples:
 
